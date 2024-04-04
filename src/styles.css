@@ -1,0 +1,110 @@
+.App {
+  font-family: sans-serif;
+  text-align: center;
+  height: "100%";
+}
+
+.container {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.form-generator {
+  max-width: 600px;
+  margin: auto;
+  padding: 20px;
+  border: 1px solid #ccc;
+  border-radius: 5px;
+}
+
+.btn {
+  margin-left: 10px;
+  margin-bottom: 10px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 3px;
+  background-color: #007bff;
+  color: #fff;
+  cursor: pointer;
+}
+
+.input-btn {
+  background-color: #4c1a84;
+  margin: 10px;
+  padding: 5px 10px;
+  border: none;
+  border-radius: 3px;
+  color: #fff;
+  cursor: pointer;
+}
+
+.submit-btn {
+  margin: 10px;
+  background-color: #c20a75;
+}
+
+.submit-btn:hover {
+  background-color: #f5a3d3;
+}
+
+.field-type-selector {
+  margin-bottom: 10px;
+}
+
+.field-type-selector label {
+  margin-right: 10px;
+}
+
+.field-type-selector select {
+  padding: 5px;
+}
+
+.field-type-selector button {
+  margin-left: 10px;
+  padding: 5px 10px;
+  background-color: #007bff;
+  color: #fff;
+  border: none;
+  border-radius: 4px;
+  cursor: pointer;
+}
+
+.form-field {
+  width: 100%;
+  padding: 8px;
+  margin-top: 5px;
+  border: 1px solid #ccc;
+  border-radius: 3px;
+}
+
+.error {
+  color: red;
+  font-size: 12px;
+}
+
+.dropdown {
+  margin-top: 5px;
+}
+
+.option-input-container {
+  display: flex;
+  align-items: center;
+}
+
+.option-input {
+  flex: 1;
+  margin: 10px;
+}
+
+.form-field-container {
+  margin-bottom: 20px;
+}
+
+.configurationsButton {
+  margin-top: 20px;
+  flex: 1;
+  flex-direction: column;
+}
